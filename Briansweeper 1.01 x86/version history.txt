@@ -1,0 +1,13 @@
+--Minesweeper by Brian Jackson--
+Made using Processing 3.5.4
+
+--Version History--
+
+Version 1.01
+	-Fixed an error where the Honduran flag would be oversized on a 40x40 table.
+
+Version 1.00
+	-Launch features:
+		-Five flags to choose from (Canadian, Honduran, Irish, Swedish, and Classic Triangle)
+		-Three table sizes to choose from (10x10 with 13 mines, 20x20 with 75 mines, 40x40 with 300 mines)
+		-Mines are my face
