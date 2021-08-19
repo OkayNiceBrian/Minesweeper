@@ -6,7 +6,7 @@ public static final int CANADA = 0;
 public static final int IRELAND = 1;
 public static final int HONDURAS = 2;
 public static final int SWEDEN = 3;
-public static final int TRANS = 4;
+public static final int TRI = 4;
 
 public class Menu{
 
@@ -53,7 +53,7 @@ public class Menu{
     case IRELAND: rect(SCREEN_WIDTH * 2 / 6 - 50, SCREEN_HEIGHT * 3 / 4 - 50, 100, 75); break;
     case HONDURAS: rect(SCREEN_WIDTH * 3 / 6 - 50, SCREEN_HEIGHT * 3 / 4 - 50, 100, 75); break;
     case SWEDEN: rect(SCREEN_WIDTH * 4 / 6 - 50, SCREEN_HEIGHT * 3 / 4 - 50, 100, 75); break;
-    case TRANS: rect(SCREEN_WIDTH * 5 / 6 - 50, SCREEN_HEIGHT * 3 / 4 - 50, 100, 75); break;
+    case TRI: rect(SCREEN_WIDTH * 5 / 6 - 50, SCREEN_HEIGHT * 3 / 4 - 50, 100, 75); break;
     }
     
     image(canadaFlagImage50, SCREEN_WIDTH / 6 - 25, SCREEN_HEIGHT * 3 / 4 - 40);
@@ -103,7 +103,7 @@ public class Menu{
     }
     
     if(x <= SCREEN_WIDTH * 5 / 6 + 50 && x >= SCREEN_WIDTH * 5 / 6 - 50 && y <= SCREEN_HEIGHT* 3 / 4 + 50 && y >= SCREEN_HEIGHT * 3 / 4 - 50){
-      this.flagChoice = TRANS;
+      this.flagChoice = TRI;
     }
     
     if (x <= SCREEN_WIDTH / 2 + 75 && x >= SCREEN_WIDTH / 2 - 75 && y <= SCREEN_HEIGHT * 5 / 6 + 100 && y >= SCREEN_HEIGHT * 5 / 6){

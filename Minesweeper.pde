@@ -109,13 +109,13 @@ void loadImages(){
   swedenFlagImage25 = loadImage("sweden flag 25.png");
   swedenFlagImage50 = loadImage("sweden flag 50.png");
   swedenFlagImage100 = loadImage("sweden flag 100.png");
-  triangleFlagImage25 = loadImage("japan flag 25.png");
-  triangleFlagImage50 = loadImage("japan flag 50.png");
-  triangleFlagImage100 = loadImage("japan flag 100.png");
+  triangleFlagImage25 = loadImage("triangle flag 25.png");
+  triangleFlagImage50 = loadImage("triangle flag 50.png");
+  triangleFlagImage100 = loadImage("triangle flag 100.png");
     
-  mineImage25 = loadImage("me 25.jpg");
-  mineImage50 = loadImage("me 50.jpg");
-  mineImage100 = loadImage("me 100.jpg");
+  mineImage25 = loadImage("mine 25.jpg");
+  mineImage50 = loadImage("mine 50.jpg");
+  mineImage100 = loadImage("mine 100.jpg");
   
   flagImageList[0][0] = canadaFlagImage100;
   flagImageList[0][1] = canadaFlagImage50;
